@@ -1,0 +1,73 @@
+body {
+ 	  font-family: Georgia, "Times New Roman", Times, serif;
+ 	  font-size: 14px;
+ 	  color: #333333;
+      background-color: #007FFF;
+}
+	
+ul li {
+	   line-height: 200%;
+	   display: inline-block;
+	   height: 50px;
+	   width: 200px;
+	   border: 3px solid #000000;
+	   font-size: 25px;
+	   font-family: Georgia; 
+	   padding: 5px 5px 5px 5px;
+	   background-color: #003F87;
+}
+h1 {
+	font-family: cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+
+hr {
+    display: block;
+    margin-top: 1 em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+}
+
+/**Pseudo Class Selectors**/
+a:link {
+		color: white; 
+		text-decoration: none;
+}
+a:visited {
+		   color: white;
+		   background: red;
+}
+a:hover {
+		 color: white;
+		 text-decoration: underline;
+}		 
+a:active {
+		  color: white;
+		  font-weight: bold;
+}
+
+#centerDoc a:link {
+					color: white;
+					text-decoration; underline;
+}
+#centerDoc a:hover {
+					color: blue;
+}
+/**ID Selectors**/
+
+
+#centerDoc {
+			position: absolute;
+			padding: 0 0 20px 20px; /**top right bottom left**/
+			margin-top: 50px;
+			margin-left: 235px;
+			width: 80%;
+}
+
+			  		
