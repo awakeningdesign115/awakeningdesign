@@ -1,7 +1,6 @@
 /** Tag Selectors **/
 body {
- 	  font-family: Georgia, "Times New Roman", Times, serif;
- 	  font-size: 14px;
+ 
  	  color: #333333;
       background-color: #007FFF;
 }
@@ -18,8 +17,8 @@ ul li {
 	   background-color: #003F87;
 }
 h1 {
-	font-family: cursive;
-	font-size: 30px;
+	font-family:'Lobster', cursive;
+	font-size: 55px;
 	font-weight: bold;
 	color: #000000;
 }
@@ -35,28 +34,30 @@ hr {
     color: #000000;
 }
 
-p {
-   width: 80%;
-}	
+
 ol li {
 	   list-style-type: numbers;
 	   line-height: 180%;
 	   width: 65%;
+	   font-family:'Open Sans', sans-serif;
+	   font-size: 20px;
+	   color: #000000;
 }
 h2 {
-	font-family: cursive;
-	font-size: 20px;
+	font-family:'Lobster', cursive;
+	font-size: 25px;
 	font-weight: bold;
 	color: #000000;
-	text-align: center;
+	text-align: left;
 }
-h3 {
-	font-family: cursive;
-	font-size: 14px;
+p {
+	font-family:'Open Sans', sans-serif;
+	font-size: 20px;
 	font-weight: bold;
 	color: #000000;
 	text-align: left;
 	margin-top: 30px;
+	  width: 80%;
 }
 
 #aw115.jpg {
@@ -90,15 +91,6 @@ a:active {
 #centerDoc a:hover {
 					color: blue;
 }
-/**ID Selectors**/
 
-
-#centerDoc {
-			position: absolute;
-			padding: 0 0 20px 20px; /**top right bottom left**/
-			margin-top: 50px;
-			margin-left: 235px;
-			width: 80%;
-}
 
 			  		
