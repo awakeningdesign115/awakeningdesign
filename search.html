@@ -5,7 +5,7 @@
 	<link type="text/css" rel="stylesheet" href="stylesheet.css">
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="tipuesearch/tipuesearch_content.js"></script>
+	
 	<link href="tipuesearch/tipuesearch.css" rel="stylesheet">
 	<script src="tipuesearch/tipuesearch_set.js"></script>
 	<script src="tipuesearch/tipuesearch.min.js"></script>
@@ -22,8 +22,12 @@
 </body>
 
 <script>
-	$(document).ready(function() {
-		 $('#tipue_search_input').tipuesearch();
-	});
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+          'mode': 'live',
+          'liveDescription': '.header',
+          'liveContent': '.container'
+     });
+});
 </script>
 </html>

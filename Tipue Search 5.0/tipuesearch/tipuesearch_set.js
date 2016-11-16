@@ -57,3 +57,7 @@ var tipuesearch_string_10 = 'Search too short';
 var tipuesearch_string_11 = 'Should be one character or more';
 var tipuesearch_string_12 = 'Should be';
 var tipuesearch_string_13 = 'characters or more';
+
+// List of Pages to search
+
+var tipuesearch_pages = ["http://awakeningdesign115.github.io", "http://awakeningdesign115.github.io/About%20Us/", "http://awakeningdesign115.github.io/Print%20Material", "http://awakeningdesign115.github.io/WritingEditing];
