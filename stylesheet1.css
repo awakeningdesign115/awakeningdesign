@@ -1,21 +1,56 @@
 /** Tag Selectors **/
 body {
  
- 	  color: #333333;
-      background-color: #007FFF;
+ 	 color: #333333;
+    background-color: #A6D765;
 }
+
+#navbar #holder {
+	height:73px;
+	border-bottom: 1px solid #000;
+	padding-left:25px;
+}
+
+#navbar #holder ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#navbar #holder ul li a {
+	text-decoration:none;
+	float:left;
+	margin-right:5px;
+	font-family:'Open Sans', sans-serif; 
+	color:#fff;
+	border:1px solid #000;
+	border-bottom:none;
+	padding:25px;
+	width: 75px;
+	text-align:center;
+	display:block;
+	background:#003F87;
 	
-ul li {
-	   line-height: 200%;
-	   display: inline-block;
-	   height: 50px;
-	   width: 200px;
-	   border: 3px solid #000000;
-	   font-size: 25px;
-	   font-family: Georgia; 
-	   padding: 5px 5px 5px 5px;
-	   background-color: #003F87;
 }
+
+#navbar #holder ul li a:hover {
+	background:#69F;
+	color:#FFF;
+	text-shadow: 3px 3px 3px #000;
+}
+
+#holder ul li a#onlink {
+	background:#A6D765;
+	color:#000;
+	border-bottom:1px solid #fff;
+}
+
+#holder ul li a#onlink:hover {
+	background:#fff;
+	color:#003F87;
+	text-shadow:3px 3px 3px #000;	
+}
+
 h1 {
 	font-family:'Lobster', cursive;
 	font-size: 55px;
@@ -43,54 +78,46 @@ ol li {
 	   font-size: 20px;
 	   color: #000000;
 }
+
 h2 {
 	font-family:'Lobster', cursive;
-	font-size: 25px;
+	font-size: 35px;
 	font-weight: bold;
 	color: #000000;
 	text-align: left;
 }
 p {
 	font-family:'Open Sans', sans-serif;
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 25px;
 	color: #000000;
 	text-align: left;
 	margin-top: 30px;
-	  width: 80%;
+	width: 80%;
 }
 
-#aw115.jpg {
-			float: right;
-			margin: 10px;
-			margin-bottom: 50px;
-			margin-right: 20%;
-}
-/**Pseudo Class Selectors**/
-a:link {
-		color: white; 
-		text-decoration: none;
-}
-a:visited {
-		   color: white;
-		   background: red;
-}
-a:hover {
-		 color: white;
-		 text-decoration: underline;
-}		 
-a:active {
-		  color: white;
-		  font-weight: bold;
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+    position: relative;
+    margin: 5px;
 }
 
-#centerDoc a:link {
-					color: white;
-					text-decoration; underline;
+input[type=text]:focus {
+    width: 100%;
 }
-#centerDoc a:hover {
-					color: blue;
-}
+
 
 
 			  		
